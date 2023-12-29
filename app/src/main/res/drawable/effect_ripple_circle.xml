@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/gold_royel2">
+
+    <!--this creates the mask with the ripple effect-->
+    <item>
+        <shape
+            android:shape="oval">
+            <!--<solid android:color="@color/gold_royel2_ash" />
+            <stroke
+                android:width="1.5dp"
+                android:color="@color/gold_royel" />-->
+        </shape>
+    </item>
+
+
+
+</ripple>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1" >
+            <ImageView
+                android:id="@+id/cat_building"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/effect_ripple_circle"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_home_round"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/gilroybold"
+                android:text="House"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1" >
+            <ImageView
+                android:id="@+id/cat_seat"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/effect_ripple_circle"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_bed_sit"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/gilroybold"
+                android:text="Seat"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1" >
+            <ImageView
+                android:id="@+id/cat_office"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_building"
+                android:background="@drawable/effect_ripple_circle"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/gilroybold"
+                android:text="Office"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1" >
+            <ImageView
+                android:id="@+id/cat_shop"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_shop_round"
+                android:background="@drawable/effect_ripple_circle"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/gilroybold"
+                android:text="Shop"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1" >
+            <ImageView
+                android:id="@+id/cat_flats"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_house"
+                android:background="@drawable/effect_ripple_circle"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/gilroybold"
+                android:text="Flats"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
